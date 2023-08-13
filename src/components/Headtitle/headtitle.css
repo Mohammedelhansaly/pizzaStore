@@ -1,0 +1,46 @@
+.images-heading{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../../assets/images/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall.jpg');
+    height: 35vh;
+    line-height: 30vh;
+    position: relative;
+    z-index: -2;
+}
+.images-heading .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.images-heading::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.4);
+    height: 35vh;
+    width: 100%;
+    z-index: -1;
+}
+.images-heading h1{
+    font-size: 40px;
+    text-transform: capitalize;
+    color: #fff;
+}
+.images-heading button{
+    background-color: black;
+    color: #fff;
+    font-weight: 400;
+    padding: 15px 30px;
+    word-spacing: 5px;
+}
+.images-heading a{
+    color: #AC0C0C;
+    cursor: pointer;
+}
+.images-heading span{
+    text-transform: capitalize;
+    word-spacing: 30px;
+}

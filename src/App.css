@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web&display=swap");
+@font-face {
+  font-family: hotpizza;
+  src: url(./assets/fonts/hotpizza.ttf);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Istok Web', sans-serif;
+}
+textarea,input{
+  width: 100%;
+  padding: 15px 20px;
+  outline: none;
+  border: none;
+}
+button{
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.flex{
+  display: flex;
+}
+.container{
+  width: 90%;
+  margin:  0 auto;
+}
+.row{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 2rem;
+}
+.row6{
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+}
+.row1{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 3rem;
+}
+.row2{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.row3{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 3rem;
+}
+.d-flex{
+  display: flex;
+}
+.align-items-center{
+  align-items: center;
+}
+
+.gap-5{
+  gap: 3rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-family: 'hotpizza' !important;
+}
+a{
+  text-decoration: none;
+  color: unset;
+}
+li{
+  list-style: none;
+}
+h1,
+h2{
+  font-size: 2.1rem;
+  font-weight: 600;
+  color: #212121;
+}
+section{
+  padding: 60px 0;
+}
+@media screen and (max-width:992px) {
+  .row{
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+@media screen and (max-width:768px) {
+.container{
+  width: 100%;
+}
+  section{
+    padding: 40px 0;
+  }
+  h1,
+  h2{
+    font-size: 1.5rem;
+  }
+  .row{
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+}

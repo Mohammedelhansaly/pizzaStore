@@ -1,0 +1,211 @@
+.header{
+    width: 100%;
+    height: 80px;
+    position: sticky;
+    top: -80px;
+    left: 0;
+    transition: .3s ease;
+}
+.logo{
+    margin-right: auto;
+}
+
+.logo img{
+    width: 60px;
+    object-fit: contain;
+    margin-top: 10px;
+}  
+
+.nav__wrapper{
+    display: flex;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+.menu a{
+    font-weight: 600;
+    font-size: 1rem;
+    color: #212245;
+    transition: .3s ease;
+}
+.menu a:hover , .menu a.active__menu{
+    color: #AC0C0C;
+}
+
+.nav__right{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-left: 60px;
+}
+.user{
+    position: relative;
+}
+.user__menu{
+    position: absolute;
+    background: #fff;
+    right:0;
+    top: 60px;
+    width: 280px;
+   box-shadow: 0 5px 25px rgba(0, 0, 0, .1);
+   padding: 20px;
+   visibility: hidden;
+   opacity: 0;
+   transition: .3s ease;
+   z-index: 999;
+}
+.user__menu.active{
+    visibility: visible;
+    opacity: 1;
+}
+.sign__btn{
+    display: flex;
+    align-items: center ;
+    gap: 2rem;
+   margin: 20px 0;
+   justify-content: center;
+   
+}
+.sign__btn button{
+    padding: 10px 25px;
+    font-size: .9rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+.sign_in{
+   
+    background-color: #AC0C0C;
+    color: #fff;
+    transition: .4s;
+}
+.sign_in:hover{
+    background-color: #000;
+}
+.sign_up{
+    background: transparent;
+    border: 1px solid #AC0C0C !important;
+    transition: .4s;
+}
+
+.sign_up:hover{
+    background-color:#AC0C0C;
+    color: #fff;
+}
+.user__menu ul li{
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.user__menu ul li i{
+    margin-right: 10px;
+    opacity: .5;
+    transition: .3s ease;
+}
+.user__menu ul li:hover i{
+    opacity: 1;
+}
+.user ul li span{
+    display: inline-block;
+    color: #555;
+    font-weight: 500;
+    transition: .3s;
+}
+.user ul li:hover span{
+    color: #AC0C0C;
+}
+
+.cart__icon i,.user i,.mobile__menu i{
+    font-size: 1.3rem;
+    color: #212245;
+    cursor: pointer;
+}
+.cart__icon{
+    position: relative;
+}
+.cart__badge{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: #AC0C0C;
+    color: #fff;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    font-size: .8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+}
+.mobile__menu{
+    font-weight: 600;
+    display: none;
+}
+.header__shrink{
+    position: sticky;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    box-shadow: 5px 5px 10px  #dadada;
+    z-index: 99;
+}
+
+@media screen and (max-width:992px) {
+    .logo img{
+        width: calc(100% - 80%);
+    }
+    .logo h5{
+        font-size: .8rem;
+         margin-top: -10px;
+    }
+    .navigation{
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, .425);
+        z-index: 99;
+        display: none;
+    }
+    .menu{
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 250px;
+        background-color: #fff;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 100;
+        line-height: 20px;
+    }
+    .menu a{
+        font-size: .9rem;
+    }
+    .mobile__menu{
+        display: block;
+    }
+    .cart__icon i, .user i,.mobile__menu i{
+        font-size: 1rem;
+    }
+    .show__menu{
+        display: block;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .header{
+        width: 100%;
+        height: 50px;
+    }
+    .logo h5{
+        margin-top: 0px;
+    }
+}

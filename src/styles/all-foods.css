@@ -1,0 +1,47 @@
+.sorting__widget select {
+  padding: 7px 15px;
+  border: 1px solid #fde4e4;
+  cursor: pointer;
+  outline: none;
+  width: 350px;
+  height: 47px;
+}
+.search__widget{
+    padding: 0 10px;
+    border: 1px solid #fde4e4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+option{
+  padding: 7px 15px !important;
+}
+.search__widget input {
+  width: 400px;
+}
+
+.search__widget input:focus {
+  outline: none;
+}
+.poducts{
+    margin-top: 40px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 768px) {
+  .search__widget {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .search__widget input {
+    width: 100%;
+    font-size: 0.8rem;
+  }
+  .sorting__widget select {
+    width: 100% !important;
+    font-size: 0.8rem;
+  }
+}

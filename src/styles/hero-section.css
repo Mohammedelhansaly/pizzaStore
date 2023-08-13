@@ -1,0 +1,134 @@
+.home{
+    position: relative;
+}
+
+.hero__content{
+    padding-top: 70px;
+    text-align: center;
+    overflow: hidden;
+}
+.hero__content h5{
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.hero__content p{
+    font-size: 1rem;
+    line-height: 30px;
+    color: #a7a7a7;
+}
+.hero__content .hero__title{
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    line-height: 55px;
+    color: #fff;
+}
+
+.hero__content .hero__title span{
+    color: #AC0C0C;
+}
+.hero__btn{
+    display: flex;
+    align-items: center ;
+    gap: 3rem;
+    margin: 20px ;
+    justify-content: center;
+}
+.hero__btn button{
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    font-size: .9rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.shipping{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 20px;
+    justify-content: center;
+   
+}
+.shipping p{
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+    color: #fff;
+    font-weight: 600;
+    font-size: .9rem;
+}
+
+.order__btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #AC0C0C;
+    color: #fff;
+    transition: .4s;
+}
+.order__btn i{
+    margin-left: 10px;
+}
+.order__btn:hover{
+    background-color: #000;
+}
+.all__foods-btn{
+    background: transparent;
+    border: 1px solid #AC0C0C !important;
+    transition: .4s;
+}
+.all__foods-btn a{
+    color: #fff;
+}
+.all__foods-btn:hover{
+    background-color:#AC0C0C;
+}
+
+
+.heroVedio{
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 80px;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media screen and (max-width:992px) {
+    .Home{
+        text-align: center;
+    }
+    .row1{
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+    .heroImg{
+        width: 500px;
+    }
+    .shipping{
+        justify-content: center;
+    }
+    .hero__btn{
+        justify-content: center;
+    }
+    
+}
+@media screen and (max-width:768px) {
+    .row1{
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+    .hero__content .hero__title{
+        font-size: 1.8rem;
+    }
+    .hero__content p{
+        font-size: .8rem;
+    }
+    .hero__btn button{
+        font-size: .7rem;
+    }
+}

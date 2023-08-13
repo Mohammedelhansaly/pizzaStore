@@ -1,0 +1,80 @@
+.category{
+    margin-top: 150px;
+    width: 100%;
+    height: 60vh;
+   display: flex;
+   align-items: center;
+}
+
+.category__item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0 20px 20px;
+    transition: .4s;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.category__item .info .text h3{
+    font-size: 24px;
+}
+.category__item img{
+    width: 170px;
+}
+
+.category__item .text  {
+    padding-bottom: 30px;
+}
+.category__item p{
+    margin-top: 10px;
+}
+.category__item:nth-child(1){
+    background-color: #fff;
+}
+.category__item:nth-child(1) .info a{
+    color: #00a850;
+    font-weight: 600;
+}
+.category__item:nth-child(1) .info p{
+    color: #000;
+}
+
+.category__item:nth-child(2){
+    background-image: url(../assets/images/patternPizza.jpg);
+    position: relative;
+    z-index: 1;
+}
+.category__item:nth-child(2)::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #00a850;
+    opacity: .9;
+    z-index: -1;
+}
+.category__item:nth-child(2) .info a{
+    color: #ffc222;
+    font-weight: 600;
+}
+
+.category__item:nth-child(2) .info p{
+    color: #fff;
+}
+.category__item:nth-child(2) .text h3{
+    color: #fff;
+}
+.category__item:nth-child(3){
+    background-color: #fff;
+}
+.category__item:nth-child(3) .info a{
+    color: #00a850;
+    font-weight: 600;
+
+}
+
+.category__item:hover{
+    transform: translateY(-15px);
+}

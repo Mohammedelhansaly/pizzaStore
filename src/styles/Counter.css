@@ -1,0 +1,14 @@
+.counter__desc{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.counter__desc h1{
+  font-size: 45px;
+ color: #fff;
+}
+.counter__desc h3{
+  color: #bbb;
+  margin-top: 10px;
+}

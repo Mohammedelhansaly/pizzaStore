@@ -1,0 +1,71 @@
+
+
+
+.checkout form{
+  padding:20px;
+  width:700px;
+  background: #fff;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  margin: auto;
+}
+
+.checkout form .row1{
+  align-items: center;
+}
+
+
+
+.checkout form  .checkout_title{
+    margin-bottom: 40px;
+    font-size: 20px;
+    color:#000;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.checkout form  .inputBox{
+  margin:15px 0;
+}
+
+.checkout form  .inputBox span{
+  margin-bottom: 10px;
+  display: block;
+}
+
+.checkout form  .inputBox input{
+  width: 100%;
+  border:1px solid #ccc;
+  padding:10px 15px;
+  font-size: 15px;
+  text-transform: none;
+}
+
+
+
+.checkout form .flex{
+  display: flex;
+  gap:15px;
+}
+
+.checkout form  .flex .inputBox{
+  margin-top: 5px;
+}
+
+.checkout form  .inputBox img{
+  margin-top: 5px;
+  filter: drop-shadow(0 0 1px #000);
+}
+
+.checkout form .submit-btn{
+  width: 100%;
+  padding:12px;
+  font-size: 17px;
+  background: #AC0C0C;
+  color:#fff;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.checkout form .submit-btn:hover{
+  background: #000;
+}

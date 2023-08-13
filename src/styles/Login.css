@@ -1,0 +1,69 @@
+.sign-box {
+    width: 43%;
+    margin: auto;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    padding: 35px;
+  }
+  .forms form div {
+    margin: 10px 0;
+  }
+  .forms form input{
+    width: 100%;
+    margin-top: 30px;
+    border: 1px solid rgb(160, 160, 160);
+
+  }
+.forms .title{
+  margin-bottom: 40px;
+  font-size: 35px;
+  position: relative;
+}
+.title::after{
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 60px;
+  height: 3px;
+  background-color: #AC0C0C;
+}
+  .forms p {
+    font-size: 13px;
+    color: #777;
+  }
+  .forms form label {
+    margin: 8px;
+  }
+  .forms form span {
+    margin-top: 10px;
+    color: crimson;
+    font-size: 13px;
+  }
+  .forms form button {
+    width: 100%;
+   
+    margin: 20px 0;
+  }
+  .forms form a {
+    color: blue;
+    font-size: 13px;
+  }
+  
+
+  .danger-btn{
+    padding: 15px 20px;
+    background-color: #AC0C0C;
+    color: #fff;
+    font-weight: 400;
+    transition: .5s;
+}
+.danger-btn:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.liens{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

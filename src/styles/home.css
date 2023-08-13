@@ -1,0 +1,192 @@
+.feature .feature__info{
+    text-align: center;
+}
+.feature__subtitle{
+    color: #AC0C0C;
+    margin-bottom: 10px;
+}
+.feature__title span{
+    color: #AC0C0C;
+}
+.feature__info p{
+    margin: 10px 0;
+    color: #777;
+}
+.feature__item img{
+    width: 100px;
+    margin-bottom: 10px;
+}
+.feature__item{
+    text-align: center;
+    padding: 10px;
+}
+.row3 .feature__item{
+    margin-top: 40px;
+}
+.row3 .feature__item h5{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.row3 .feature__item p{
+    color: #777;
+} 
+
+
+.food__category{
+    background-color: #AC0C0C;
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px 0 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.food__category button{
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+    border: none;
+    outline: none;
+    padding: 7px 20px;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+.food__category button img{
+    width: 20px;
+    height: 20px;
+}
+.foodBtnActive{
+    background-color: #fff !important;
+    color: #AC0C0C !important;
+}
+
+.product__col{
+    margin-top: 20px;
+}
+.why__tasty-food{
+    background-color: #FAF4EA;
+    background-image: url("../assets/images/shape.png");
+    background-position: 130px 90px;
+    background-repeat: no-repeat;
+    background-size: 30% auto;
+    position: relative;
+}
+.Why__img{
+   width: 550px;
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+}
+
+.why__tasty-treat{
+    margin-top: 50px;
+}
+.tasty__sm-title{
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+   
+    font-weight: 600;
+}
+
+.tasty__sm-title i{
+    font-weight: 600;
+    color: #AC0C0C;
+}
+.tasty-text{
+    margin-bottom: 40px;
+    color: #777;
+    margin-top: 10px;
+}
+.tasty__title span{
+    color: #AC0C0C;
+}
+.tasty__desc{
+    color: #777;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+.tasty__list-item{
+    margin-top: 10px;
+}
+
+
+.hot__pizza{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.mySwiper{
+    margin-top: 80px;
+    height: auto;
+    width: 100%;
+    position: relative;
+display: flex;
+align-items: center;
+justify-content: center;   
+}
+.swiperTest{
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    margin-bottom: 60px;
+}
+.quote{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    opacity: .7;
+}
+.testimonail__subtitle{
+    color: #AC0C0C;
+    margin-bottom: 20px;
+}
+.testimonial__title{
+    margin-bottom: 40px;
+}
+.testimonial__title span{
+    color:#AC0C0C ;
+}
+.testimoinal__desc{
+    color: #777;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+.testimonail__user-info{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    gap: 1rem;
+}
+.review__text{
+    text-align: justify;
+}
+.testimonail__user-info img{
+    width: 100px;
+   
+}
+.testimonail__user-info .ratt{
+    margin-top: 10px;
+}
+.testimonail__user-info .ratt i{
+    color: #FFB100;
+    font-size: 18px;
+}
+
+.Gallery{
+    width: 100%;
+    height: 130vh;
+    position: relative;
+}
+
+.counter__section{
+    margin-top: 30px;
+    width: 100%;
+    height: 30vh;
+    background-color: #212245;
+    display: flex;
+    align-items: center;
+}
